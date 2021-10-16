@@ -53,7 +53,7 @@ class CraftCfg
         };
     };
     
-  //VEHICLES NOT YET COMPLETED
+ 
   /*
 	When adding vehicles, you must use the following guide.
 	list[] = {"VEHICLE_CLASSNAME",{"MATERIALS",AMOUNT}}, {crafting level required}
