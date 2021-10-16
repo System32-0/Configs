@@ -20,7 +20,7 @@
 *
 */
 class WeaponShops {
-    //Armory Shops
+    //Armory Shops Todo
     class gun {
         name = "Billy Joe's Firearms";
         side = "civ";
@@ -46,40 +46,73 @@ class WeaponShops {
             { "optic_ACO_grn_smg", "", 2500, 1250, "" }
         };
     };
-
+   // Rebel Double Check prices
     class rebel {
         name = "Mohammed's Jihadi Shop";
         side = "civ";
         conditions = "license_civ_rebel";
         items[] = {
+            { "hgun_ACPC2_F", "", 11500, 6250, "" },
+            { "hgun_Pistol_heavy_01_MRD_F", "", 10000, 5000, "" },
+            { "hgun_Rook40_F", "", 6500, 3250, "" },
+            { "hgun_Pistol_heavy_02_F", "", 9850, 4800, "" },
             { "arifle_TRG20_F", "", 25000, 12500, "" },
+            { "SMG_01_F", "", 30000, 15000, "" },
             { "arifle_Katiba_F", "", 30000, 15000, "" },
             { "srifle_DMR_01_F", "", 50000, 25000, "" },
+            { "arifle_MX_SW_F", "", 150000, -1, "" },
+            { "srifle_EBR_F", "", 150000, -1, "" },
             { "arifle_SDAR_F", "", 20000, 10000, "" },
-            { "arifle_AK12_F", "", 22000, 11000, "" }, //Apex DLC
-            { "arifle_AKS_F", "", 22000, 11000, "" }, //Apex DLC
-            { "arifle_AKM_F", "", 22000, 11000, "" }, //Apex DLC
-            { "arifle_ARX_blk_F", "", 22000, 11000, "" }, //Apex DLC
+            { "arifle_AK12_F", "", 120000, -1, "" }, //Apex DLC
+            { "arifle_AKS_F", "", 30000, 15000, "" }, //Apex DLC
+            { "arifle_AKM_F", "", 118000, -1, "" }, //Apex DLC
+            { "arifle_ARX_blk_F", "", 30000, 15000, "" }, //Apex DLC
             { "arifle_SPAR_01_blk_F", "", 33000, 16500, "" }, //Apex DLC
-            { "arifle_CTAR_blk_F", "", 30000, 15000, "" } //Apex DLC
+            { "arifle_CTAR_blk_F", "", 30000, 15000, "" },
+            { "srifle_GM6_F", "", 2000000, -1, "" },
+            { "srifle_GM6_camo_F", "", 2000000, -1, "" },
+            { "srifle_LRR_F", "", 2000000, -1, "" }
         };
         mags[] = {
-            { "30Rnd_556x45_Stanag", "", 300, 150, "" },
+            { "11Rnd_45ACP_Mag", "", 25, -1, "" },
+            { "9Rnd_45ACP_Mag", "", 45, -1, "" },
+            { "16Rnd_9x21_Mag", "", 25, -1, "" },
+            { "6Rnd_45ACP_Cylinder", "", 50, -1, "" },
+            { "30Rnd_556x45_Stanag", "", 300, 150, "" }, 
+            { "30Rnd_45ACP_Mag_SMG_01", "", 100, 50, "" }, 
+            { "100Rnd_65x39_caseless_mag_Tracer", "", 15000, -1, "" }, 
             { "30Rnd_762x39_Mag_F", "", 300, 150, "" }, //Apex DLC
             { "30Rnd_545x39_Mag_F", "", 300, 150, "" }, //Apex DLC
             { "30Rnd_65x39_caseless_green", "", 275, 140, "" },
             { "10Rnd_762x54_Mag", "", 500, 250, "" },
+            { "20Rnd_762x51_Mag", "", 500, 250, "" },
             { "20Rnd_556x45_UW_mag", "", 125, 60, "" },
-            { "30Rnd_580x42_Mag_F", "", 125, 60, "" } //Apex DLC
+            { "30Rnd_580x42_Mag_F", "", 125, 60, "" }, //Apex DLC
+            { "5Rnd_127x108_Mag", "", 20000, -1, "" },
+            { "5Rnd_127x108_APDS_Mag", "", 100000, -1, "" },
+            { "7Rnd_408_Mag", "", 20000, -1, "" }
+
         };
         accs[] = {
+            { "muzzle_snds_acp", "", 20000, -1, "" },
+            { "optic_SOS", "", 65000, -1, "" },
+            { "optic_DMS", "", 65000, -1, "" },
+            { "optic_NVS", "", 80000, -1, "" },
+            { "optic_Aco", "", 3500, 1750, "" },
+            { "optic_MRCO", "", 5500, 1750, "" },
+            { "optic_Arco", "", 10000, -1, "" },
             { "optic_ACO_grn", "", 3500, 1750, "" },
             { "optic_Holosight", "", 3600, 1800, "" },
             { "optic_Hamr", "", 7500, 3750, "" },
+            { "muzzle_snds_H", "", 20000, -1, "" },
+            { "muzzle_snds_L", "", 20000, -1, "" },
+            { "muzzle_snds_M", "", 20000, -1, "" },
+            { "muzzle_snds_B", "", 20000, -1, "" },
+            { "muzzle_snds_H_SW", "", 20000, -1, "" },
             { "acc_flashlight", "", 1000, 500, "" }
         };
     };
-
+        // Gang Hideout Todo
     class gang {
         name = "Hideout Armament";
         side = "civ";
@@ -102,7 +135,7 @@ class WeaponShops {
         };
     };
 
-    //Basic Shops
+    //Basic Shops Todo
     class genstore {
         name = "Sin City General Store";
         side = "civ";
@@ -126,7 +159,7 @@ class WeaponShops {
         mags[] = {};
         accs[] = {};
     };
-
+        //Fuel Station Todo
     class f_station_store {
         name = "Sin City Fuel Station Store";
         side = "";
@@ -139,7 +172,7 @@ class WeaponShops {
             { "ItemWatch", "", 250, 25, "" },
             { "FirstAidKit", "", 750, 75, "" },
             { "NVGoggles", "", 10000, 1000, "" },
-			{ "G_Combat_Goggles_tna_F", "Fullscreen NVG", 2000, 1000, "" },
+	    { "G_Combat_Goggles_tna_F", "Fullscreen NVG", 2000, 1000, "" },
             { "G_Balaclava_TI_G_tna_F", "Fullscreen NVG", 2000, 1000, "" },
             { "G_Bandanna_sport", "Fullscreen NVG", 2000, 1000, "" },
             { "Chemlight_red", "", 1500, 150, "" },
@@ -151,7 +184,7 @@ class WeaponShops {
         accs[] = {};
     };
 
-    //Cop Shops
+    //Cop Shops Big Todo
     class cop_basic {
         name = "Sin City  Cop Shop";
         side = "cop";
@@ -193,7 +226,7 @@ class WeaponShops {
         };
     };
 
-    //Medic Shops
+    //Medic Shops todo
     class med_basic {
         name = "store";
         side = "med";
@@ -206,5 +239,115 @@ class WeaponShops {
         };
         mags[] = {};
         accs[] = {};
+    };
+
+     //Ied Shop    Gotta add sui vest and others
+class explosives_store{
+        name = "Explosives Armament";
+        side = "civ";
+        conditions = "licence_civ_rebel";
+        items[] = {
+            { "DemoCharge_Remote_Mag", "", 250000, -1, "" }
+        };
+        mags[] = {};
+        accs[] = {};
+    };
+      //rifle mastery store TODO
+class rifle_m_store{
+        name = "Master Rifle Armament";
+        side = "civ";
+        conditions = "licence_civ_rebel";
+        items[] = {
+       { "DemoCharge_Remote_Mag", "", 1750000, -1, "call life_exp_perks select 11 >= 1" },
+        };
+        mags[] = {};
+        accs[] = {};
+    };
+    //sniper mastery store  TODO
+class sniper_m_store{
+        name = "Master Sniper Armament";
+        side = "civ";
+        conditions = "licence_civ_rebel";
+        items[] = {
+       { "DemoCharge_Remote_Mag", "", 1750000, -1, "call life_exp_perks select 11 >= 1" },
+        };
+        mags[] = {};
+        accs[] = {};
+    };
+    //explosive mastery story TODO
+class explosives_m_store{
+        name = "Master Explosives Armament";
+        side = "civ";
+        conditions = "licence_civ_rebel";
+        items[] = {
+       { "DemoCharge_Remote_Mag", "", 1750000, -1, "call life_exp_perks select 11 >= 1" },
+        };
+        mags[] = {};
+        accs[] = {};
+    };
+     // KOS Store Double Check Prices
+class kos_store{
+        name = "KOS Island Store ";
+        side = "civ";
+        conditions = "license_civ_rebel";
+        items[] = {
+            { "hgun_ACPC2_F", "", 10350, 5625, "" },
+            { "hgun_Pistol_heavy_01_MRD_F", "", 9000, 4500, "" },
+            { "hgun_Rook40_F", "", 5850, 2925, "" },
+            { "hgun_Pistol_heavy_02_F", "", 8865, 4320, "" },
+            { "arifle_TRG20_F", "", 22500, 11250, "" },
+            { "SMG_01_F", "", 27000, 13500, "" },
+            { "arifle_Katiba_F", "", 27000, 13500, "" },
+            { "srifle_DMR_01_F", "", 50000, 25000, "" },
+            { "arifle_MX_SW_F", "", 135000, -1, "" },
+            { "srifle_EBR_F", "", 135000, -1, "" },
+            { "arifle_SDAR_F", "", 20000, 10000, "" },
+            { "arifle_AK12_F", "", 108000, -1, "" }, //Apex DLC
+            { "arifle_AKS_F", "", 27000, 13500, "" }, //Apex DLC
+            { "arifle_AKM_F", "", 118000, -1, "" }, //Apex DLC
+            { "arifle_ARX_blk_F", "", 27000, 13500, "" }, //Apex DLC
+            { "arifle_SPAR_01_blk_F", "", 29700, 14850, "" }, //Apex DLC
+            { "arifle_CTAR_blk_F", "", 27000, 13500, "" },
+            { "srifle_GM6_F", "", 1800000, -1, "" },
+            { "srifle_GM6_camo_F", "", 1800000, -1, "" },
+            { "srifle_LRR_F", "", 1800000, -1, "" }
+        };
+        mags[] = {
+            { "11Rnd_45ACP_Mag", "", 25, -1, "" },
+            { "9Rnd_45ACP_Mag", "", 45, -1, "" },
+            { "16Rnd_9x21_Mag", "", 25, -1, "" },
+            { "6Rnd_45ACP_Cylinder", "", 50, -1, "" },
+            { "30Rnd_556x45_Stanag", "", 300, 150, "" }, 
+            { "30Rnd_45ACP_Mag_SMG_01", "", 100, 50, "" }, 
+            { "100Rnd_65x39_caseless_mag_Tracer", "", 15000, -1, "" }, 
+            { "30Rnd_762x39_Mag_F", "", 300, 150, "" }, //Apex DLC
+            { "30Rnd_545x39_Mag_F", "", 300, 150, "" }, //Apex DLC
+            { "30Rnd_65x39_caseless_green", "", 275, 140, "" },
+            { "10Rnd_762x54_Mag", "", 500, 250, "" },
+            { "20Rnd_762x51_Mag", "", 500, 250, "" },
+            { "20Rnd_556x45_UW_mag", "", 125, 60, "" },
+            { "30Rnd_580x42_Mag_F", "", 125, 60, "" }, //Apex DLC
+            { "5Rnd_127x108_Mag", "", 20000, -1, "" },
+            { "5Rnd_127x108_APDS_Mag", "", 90000, -1, "" },
+            { "7Rnd_408_Mag", "", 20000, -1, "" }
+
+        };
+        accs[] = {
+            { "muzzle_snds_acp", "", 20000, -1, "" },
+            { "optic_SOS", "", 65000, -1, "" },
+            { "optic_DMS", "", 65000, -1, "" },
+            { "optic_NVS", "", 80000, -1, "" },
+            { "optic_Aco", "", 3500, 1750, "" },
+            { "optic_MRCO", "", 5500, 1750, "" },
+            { "optic_Arco", "", 10000, -1, "" },
+            { "optic_ACO_grn", "", 3500, 1750, "" },
+            { "optic_Holosight", "", 3600, 1800, "" },
+            { "optic_Hamr", "", 7500, 3750, "" },
+            { "muzzle_snds_H", "", 20000, -1, "" },
+            { "muzzle_snds_L", "", 20000, -1, "" },
+            { "muzzle_snds_M", "", 20000, -1, "" },
+            { "muzzle_snds_B", "", 20000, -1, "" },
+            { "muzzle_snds_H_SW", "", 20000, -1, "" },
+            { "acc_flashlight", "", 1000, 500, "" }
     };
 };
